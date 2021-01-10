@@ -30,7 +30,7 @@ class TaskSystem:
         if not self.__validate_token():
             raise ValueError("Token is invalid")
 
-        self.__base_url = 'https://tsww.website/app/api/client{token}/'.format(
+        self.__base_url = 'https://taskyonline.com/app/api/client{token}/'.format(
             token = self.token
         )
 
